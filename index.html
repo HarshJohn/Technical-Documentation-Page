@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Technical Documentation Page</title>
+</head>
+<body>
+  <nav id="navbar">
+
+    <header id="nav-header">
+      <h1>Web Development Guide!!</h1>
+    </header>
+  
+    <section class="link">
+  
+      <ul>
+        <li class="main-list">
+          <a href="#html" class="nav-link"><span class="bold">HTML</span></a>
+          <ul>
+            <li class="sub-list"><a href="#html_example">Example</a></li>
+            <li class="sub-list">
+              <a class="sub-link" href="#example_explained">Examples Explained</a>
+            </li>
+            <li class="sub-list"><a class="sub-link" href="#html_page_structure">HTML page structure</a></li>
+            <li class="sub-list"><a class="sub-link" href="#learn_more_html">Learn More</a></li>
+          </ul>
+        </li>
+  
+        <li class="main-list">
+          <a href="#css" class="nav-link"><span class="bold">CSS</span></a>
+          <ul>
+            <li class="sub-list"><a class="sub-link" href="#why_use_css">Why use CSS?</a></li>
+            <li class="sub-list"><a class="sub-link" href="#css_example">CSS Example</a></li>
+            <li class="sub-list"><a class="sub-link" href="#css_flexbox">CSS Flexbox</a></li>
+            <li class="sub-list"><a class="sub-link" href="#flexbox_examples">Flexbox Examples</a></li>
+            <li class="sub-list"><a class="sub-link" href="#css_grid">CSS Grid</a></li>
+            <li class="sub-list"><a class="sub-link" href="#display_property_grid">Display Property in Grid</a></li>
+            <li class="sub-list"><a class="sub-link" href="#grid_columns">Grid Columns</a></li>
+            <li class="sub-list"><a class="sub-link" href="#grid_rows">Grid Rows</a></li>
+            <li class="sub-list"><a class="sub-link" href="#grid_gap">Grid sub</a></li>
+            <li class="sub-list"><a class="sub-link" href="#learn_basic_css">Learn More</a></li>
+          </ul>
+        </li>
+  
+        <li class="main-list">
+          <a href="#javascript_algorithms_and_data_structures" class="nav-link"><span class="bold">JavaScript Algorithms and Data Structures</span></a>
+          <ul>
+            <li class="sub-list"><a class="sub-link" href="#why_study_javascript">Why Study JavaScript?</a></li>
+            <li class="sub-list"><a class="sub-link" href="#commonly_asked_questions">Commonly Asked Questions</a></li>
+            <li class="sub-list"><a class="sub-link" href="#did_you_know">Did you know?</a></li>
+            <li class="sub-list"><a class="sub-link" href="#learn_more_javascript">Learn More</a></li>
+          </ul>
+        </li>
+  
+        <li class="main-list">
+          <a href="#front_end_development_libraries" class="nav-link"><span class="bold">Front End Development Libraries</span></a>
+          <ul>
+            <li class="sub-list"><a class="sub-link" href="#bootstrap">Bootstrap</a></li>
+            <li class="sub-list"><a class="sub-link" href="#jquery">jQuery</a></li>
+            <li class="sub-list"><a class="sub-link" href="#sass">SASS</a></li>
+            <li class="sub-list"><a class="sub-link" href="#react">react</a></li>
+          </ul>
+        </li>
+  
+        <li class="main-list">
+          <a class="nav-link" href="#resources" class="nav-link"><span class="bold">Resources</span></a>
+        </li>
+  
+        <li>
+          <a href="#html">Back to top!</a>
+        </li>
+      </ul>
+  
+    </section>
+  
+  </nav>
+  
+  <main id="main-doc">
+  
+    <section class="main-section" id="html">
+  
+      <header class="html">
+        <h2>HTML</h2>
+      </header>
+  
+      <p>
+  
+      <ul>
+        <li>HTML stands for Hyper Text Markup Language</li>
+        <li>HTML is the standard markup language for creating Web pages</li>
+        <li>HTML describes the structure of a Web page</li>
+        <li>HTML consists of a series of elements</li>
+        <li>HTML elements tell the browser how to display the content</li>
+        <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+      </ul>
+  
+      </p>
+  
+      <section class="sub-section">
+  
+        <p>
+  
+        <h3 id="html_example">Example</h3>
+        <code>
+          &lt;!DOCTYPE html&gt;
+          <br>
+          &lt;html&gt;
+          <br>
+          &lt;head&gt;
+          <br>
+          &lt;title&gt;Page Title&lt;/title&gt;
+          <br>
+          &lt;/head&gt;
+          <br>
+          &lt;body&gt;
+          <br>
+  
+          <br>
+          &lt;h1&gt;My First Heading&lt;/h1&gt;
+          <br>
+          &lt;p&gt;My first paragraph.&lt;/p&gt;
+          <br>
+          <br>
+          &lt;/body&gt;
+          <br>
+          &lt;/html>&gt;
+          <br>
+        </code>
+  
+        </p>
+  
+        <p>
+        <h3>Output:</h3>
+        <img src="https://www.w3schools.com/html/img_chrome.png" alt="Output of the code above!">
+        </p>
+  
+        <h3 id="example_explained">Example Explained</h3>
+        <p>
+        <ul>
+          <li>The &lt;!DOCTYPE html&gt; declaration defines that this document is an HTML5 document</li>
+          <li>The &lt;html&gt; element is the root element of an HTML page</li>
+          <li>The &lt;head&gt; element contains meta information about the HTML page</li>
+          <li>The &lt;title&gt; element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</li>
+          <li>The &lt;body&gt; element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+          <li>The &lt;h1&gt; element defines a large heading</li>
+          <li>The &lt;p&gt; element defines a paragraph</li>
+        </ul>
+        </p>
+  
+        <p>
+        <h3 id="html_page_structure">HTML Page Structure</h3>
+        <div>Below is a visualization of an HTML page structure:</div>
+        <img src="https://www.basictutorials.in/images/html-structure.png" alt="html page structure!!" width="50%">
+        </p>
+  
+        <p>
+        <h4 id="learn_more_html">
+          Click
+          <a href="https://www.w3schools.com/html/default.asp">here</a> to learn more HTML.
+        </h4>
+        </p>
+  
+      </section>
+  
+    </section>
+  
+    <section class="main-section" id="css">
+  
+      <header class="css">
+        <h2>CSS</h2>
+      </header>
+  
+      <p>
+      <ul>
+        <li>CSS stands for Cascading Style Sheets</li>
+        <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+        <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+        <li>External stylesheets are stored in CSS files</li>
+      </ul>
+      </p>
+  
+      <section class="sub-section">
+  
+        <p>
+        <h3 id="why_use_css">Why use CSS?</h3>
+        <div>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</div>
+  
+        <h3 id="css_example">CSS Example</h3>
+        <code>
+          body {
+          <br>
+          background-color: lightblue;
+          <br>
+          }
+          <br>
+          h1 {
+          <br>
+          color: white;
+          <br>
+          text-align: center;
+          <br>
+          }
+          <br>
+          p {
+          <br>
+          font-family: verdana;
+          <br>
+          font-size: 20px;
+          <br>
+          }
+        </code>
+        </p>
+  
+        <p>
+        <h3 id="css_flexbox">CSS Flexbox</h3>
+  
+        <p>
+  
+        <div>Before the Flexbox Layout module, there were four layout modes:</div>
+  
+        <ul>
+          <li>Block, for sections in a webpage</li>
+          <li>Inline, for text</li>
+          <li>Table, for two-dimensional table data</li>
+          <li>
+            Positioned, for explicit position of an element</li>
+        </ul>
+  
+        <div>The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.</div>
+  
+        </p>
+  
+        <div>
+  
+          <h3 id="flexbox_examples">Flexbox Example:</h3>
+  
+          <h5>Example 1:</h5>
+  
+          <code>
+            <div class="flex-container" style="display: flex; gap: 1rem;">
+              <div style="display: flex; background-color: lightblue; padding: 20px;">1</div>
+              <div style="display: flex; background-color: lightblue; padding: 20px;">2</div>
+              <div style="display: flex; background-color: lightblue; padding: 20px;">3</div>
+            </div>
+          </code>
+  
+          <h5>Example 6:</h5>
+  
+          <code>
+            <div class="flex-container" style="display: flex; gap: 1rem; flex-direction: column; justify-content: center; align-items: flex-start;">
+              <div style="display: flex; background-color: lightblue; padding: 20px;">1</div>
+              <div style="display: flex; background-color: lightblue; padding: 20px;">2</div>
+              <div style="display: flex; background-color: lightblue; padding: 20px;">3</div>
+            </div>
+          </code>
+        </div>
+  
+        </p>
+  
+        <p>
+        <div>
+          <a href="https://www.w3schools.com/css/css3_flexbox.asp">Click here</a> to learn more about Flexbox:
+        </div>
+        </p>
+  
+        <p>
+  
+        <h3 id="css_grid">Grid layout design:</h3>
+        <img src="https://miro.medium.com/max/1400/1*kuzeYL058uQGHPt8_wuoqg.png" alt="Grid styling layout">
+  
+        <h3 id="grid_layout_example">Grid Layout Example: Code:</h3>
+        <code>
+          &lt;div class="grid-container-for-example"&gt;
+          <br>
+          &lt;div &gt;lass="item1">Header&lt;/div&gt;
+          <br>
+          &lt;div &gt;lass="item2">Menu&lt;/div&gt;
+          <br>
+          &lt;div &gt;lass="item3">Main&lt;/div&gt;
+          <br>
+          &lt;div &gt;lass="item4">Right&lt;/div&gt;
+          <br>
+          &lt;div &gt;lass="item5">Footer&lt;/div&gt;
+          <br>
+          &lt;/div&gt;
+          <br>
+        </code>
+        <p>This is the CSS code:</p>
+        <code>
+          .item1 { grid-area: header; }
+          <br>
+          .item2 { grid-area: menu; }
+          <br>
+          .item3 { grid-area: main; }
+          <br>
+          .item4 { grid-area: right; }
+          <br>
+          .item5 { grid-area: footer; }
+          <br>
+  
+          <br>
+          .grid-container-for-example {
+          <br>
+          display: grid;
+          <br>
+          grid-template-areas:
+          <br>
+          'header header header header header header'
+          <br>
+          'menu main main main right right'
+          <br>
+          'menu footer footer footer footer footer';
+          <br>
+          grid-gap: 10px;
+          <br>
+          background-color: #2196F3;
+          <br>
+          padding: 10px;
+          <br>
+          }
+          <br>
+  
+          <br>
+          .grid-container-for-example > div {
+          <br>
+          background-color: rgba(255, 255, 255, 0.8);
+          <br>
+          text-align: center;
+          <br>
+          padding: 20px 0;
+          <br>
+          font-size: 30px;
+          <br>
+          }
+        </code>
+  
+        <p>This grid layout contains six columns and three rows:</p>
+  
+        <div class="grid-container-for-example">
+          <div class="item1">Header</div>
+          <div class="item2">Menu</div>
+          <div class="item3">Main</div>
+          <div class="item4">Right</div>
+          <div class="item5">Footer</div>
+        </div>
+  
+        </p>
+  
+        <p>
+        <h3 id="display_property_grid">Display Property</h3>
+        <div>
+          An HTML element becomes a grid container when its display property is set to grid or inline-grid.
+        </div>
+        </p>
+  
+        <p>
+        <h3 id="grid_columns">Grid Columns</h3>
+        <div>
+          The vertical lines of grid items are called columns.
+        </div>
+        <img src="https://www.w3schools.com/css/grid_columns.png" alt="grid columns image">
+        </p>
+  
+        <p>
+        <h3 id="grid_rows">Grid Rows</h3>
+        <div>The horizontal lines of grid items are called rows.</div>
+        <img src="Grid Rows" alt="grid rows image">
+        </p>
+  
+        <p>
+        <h3 id="grid_gap">Grid Gap</h3>
+        <div>The spaces between each column/row are called gaps.</div>
+        <img src="https://www.w3schools.com/css/grid_gaps.png" alt="grid gap image">
+        </p>
+  
+        <p>
+        <div>You can adjust the gap size by using one of the following properties:</div>
+        <ul class="color-red">
+          <li>grid-column-gap</li>
+          <li>grid-row-gap</li>
+          <li>grid-gap</li>
+        </ul>
+        </p>
+  
+        <p>
+        <div>
+          Wanna learn more about Grid in specific:
+          <a href="https://www.w3schools.com/css/css_grid.asp">Click Me!!</a>
+        </div>
+        </p>
+  
+        <p>
+        <h4 id="learn_basic_css">
+          Click <a href="https://www.w3schools.com/css/default.asp">here</a> to start your CSS journey.
+        </h4>
+        </p>
+  
+      </section>
+  
+    </section>
+  
+    <section class="main-section" id="javascript_algorithms_and_data_structures">
+  
+      <header class="javascript_algorithms_and_data_structures">
+        <h2>JavaScript Algorithms and Data Structures</h2>
+      </header>
+  
+      <p>
+        JavaScript is the world's most popular programming language.
+        <br>
+        JavaScript is the programming language of the Web.
+        <br>
+        JavaScript is easy to learn.
+      </p>
+  
+      <section class="sub-section">
+  
+        <p>
+        <h3 id="why_study_javascript">Why Study JavaScript?</h3>
+        <ol>
+          JavaScript is one of the <span class="bold">3 languages</span> all web developers <span class="bold">must</span> learn:
+          <li><span class="bold">HTML</span> to define the content of web pages</li>
+          <li><span class="bold">CSS</span> to specify the layout of web pages</li>
+          <li><span class="bold">JavaScript</span> to program the behavior of web pages</li>
+        </ol>
+        </p>
+  
+        <p>
+        <h3 id="commonly_asked_questions">Commonly Asked Questions</h3>
+        <ul>
+          <li>
+            How do I get JavaScript?
+            <ul>
+              <li><span class="bold">JavaScript is already running on your device.</span></li>
+            </ul>
+          </li>
+          <li>
+            Where can I download JavaScript?
+            <ul>
+              <li><span class="bold">You don't have to download JavaScript!</span></li>
+            </ul>
+          </li>
+          <li>
+            Is JavaScript free?
+            <ul>
+              <li><span class="bold">JavaScript is free to use for everyone.</span></li>
+            </ul>
+          </li>
+        </ul>
+        </p>
+  
+        <p>
+        <h3 id="did_you_know">Did you know?</h3>
+        <div>
+          JavaScript and Java are completely different languages, both in concept and design.
+          <br>
+          JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard in 1997.
+          <br>
+          ECMA-262 is the official name of the standard. ECMAScript is the official name of the language.
+        </div>
+        </p>
+  
+        <p>
+        <h4 id="learn_more_javascript">Learn more about JavaScript by clicking <a href="https://www.w3schools.com/js/default.asp">here.</a></h4>
+        </p>
+  
+      </section>
+  
+    </section>
+  
+    <section class="main-section" id="front_end_development_libraries">
+  
+      <header class="front_end_development_libraries">
+        <h2>Front End Development Libraries</h2>
+      </header>
+  
+      <p>
+        Now that you're familiar with HTML, CSS, and JavaScript, level up your skills by learning some of the most popular front end libraries in the industry.
+      </p>
+  
+      <section class="sub-section">
+  
+        <p>
+        <h3 id="bootstrap">bootstrap</h3>
+        <div>Bootstrap is a front end framework used to design responsive web pages and applications. It takes a mobile-first approach to web development, and includes pre-built CSS styles and classes, plus some JavaScript functionality.
+        </div>
+        <h4><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">Click me</a> to learn more about Bootstrap.</h4>
+        </p>
+  
+        <p>
+        <h3 id="jquery">jQuery</h3>
+        <div>Query is one of the most widely used JavaScript libraries in the world.
+          <br>
+          In 2006 when it was released, all major browsers handled JavaScript slightly differently. jQuery simplified the process of writing client-side JavaScript, and also ensured that your code worked the same way in all browsers.
+        </div>
+        <h4><a href="Query is one of the most widely used JavaScript libraries in the world.
+  
+                              In 2006 when it was released, all major browsers handled JavaScript slightly differently. jQuery simplified the process of writing client-side JavaScript, and also ensured that your code worked the same way in all browsers.">Click here</a> to learn more about jQuery.</h4>
+        </p>
+  
+        <p>
+        <h3 id="sass">SASS</h3>
+        <div>Sass, or "Syntactically Awesome StyleSheets", is a language extension of CSS. It adds features that aren't available in basic CSS, which make it easier for you to simplify and maintain the style sheets for your projects.</div>
+        <h4><a href="https://www.w3schools.com/sass/">Click here</a> to learn more about SASS.</h4>
+        </p>
+  
+        <p>
+        <h3 id="react">React</h3>
+        <div>React is a popular JavaScript library for building reusable, component-driven user interfaces for web pages or applications.
+          <br>
+          React combines HTML with JavaScript functionality into its own markup language called JSX. React also makes it easy to manage the flow of data throughout the application.
+        </div>
+        <h4><a href="https://www.w3schools.com/react/default.asp">Click here</a> to learn more about React.</h4>
+        </p>
+  
+        <p>
+          There are more frameworks or libraries. Refer to <a href="#resources">Resources</a> down below for more information about everything else!
+        </p>
+  
+      </section>
+  
+    </section>
+  
+    <section class="main-section" id="resources">
+  
+      <header class="resources">
+        <h2>Resources</h2>
+      </header>
+  
+      <p>
+      <h3>If you wanna learn more, please visit following resources I have compiled as of now:</h3>
+      <div><a href="https://www.freecodecamp.org/learn">freeCodeCamp.org</a></div>
+      <div><a href="https://www.traversymedia.com/">Traversy Media</a></div>
+      <div><a href="https://codewithharry.com/">Code With Harry</a></div>
+      <div><a href="https://courses.webdevsimplified.com/">Web Dev simplified</a></div>
+      <div><a href="https://www.kevinpowell.co/">Kevin Powell</a></div>
+      <div><a href="https://kyleprinsloo.com/">Kyle Prinsloo</a></div>
+      <div><a href="https://www.udemy.com/">Udemy</a></div>
+      <div><a href="https://www.youtube.com/">YouTube</a><span> (of-course)</span></div>
+      </p>
+  
+      <p>There are much more to it than these simple resources. This will allow you to get started. Hopefully you make the best out of it.</p>
+  
+    </section>
+  
+  </main>
+</body>
+</html>
